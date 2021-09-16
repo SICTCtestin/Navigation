@@ -10,6 +10,7 @@ def lookLeft():
     navigator.setheading(180)
 def go():
     navigator.forward(20)
+
 navigator=turtle.Turtle()
 navigator.shape("circle")
 wn=turtle.Screen()

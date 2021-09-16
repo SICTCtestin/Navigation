@@ -1,17 +1,17 @@
-<<<<<<< HEAD
 body{
+    background-image: url(images/Untitled.png);
     margin: 0;
-    background-color: #003366;
-    color: aliceblue;
+    background-color: #8F9961;
+    color: #fff;
     font-family: Verdana, Arial, sans-serif;
 }
 header{
-    background-size: 100% 100%;
+    align:center;
     color: #fff;
     font-size: 120%;
-    margin-top: 50px;
-    min-height: 200px;
-    align: right;
+    margin-top: 50px;;
+    height: 200px;
+    width: 1365px;
 }
 footer{
     font-size: .60em;
@@ -27,20 +27,6 @@ footer{
 }
 .studio{
     font-style: italic;
-=======
-body{
-    margin: 0;
-    background-color: #003366;
-    color: aliceblue;
-    font-family: Verdana, Arial, sans-serif;
-}
-header{
-    background-size: 100% 100%;
-    color: #fff;
-    font-size: 120%;
-    margin-top: 50px;
-    min-height: 200px;
-    align: right;
 }
 footer{
     font-size: .60em;

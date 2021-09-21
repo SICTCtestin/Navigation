@@ -1,8 +1,8 @@
 body{
-    background-image: url(images/Untitled.png);
+    background-image: url(htmlImages/Background.png);
     margin: 0;
     background-color: #8F9961;
-    color: #fff;
+    color: black;
     font-family: Verdana, Arial, sans-serif;
     background-repeat: repeat-x;
 }
@@ -36,6 +36,7 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-style: italic;
     padding: 1em;
+    color:#fff;
 }
 #wrapper{
     padding: 2em;

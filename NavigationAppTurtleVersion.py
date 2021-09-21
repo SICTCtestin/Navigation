@@ -1,5 +1,30 @@
 # import package
 import turtle
+<<<<<<< HEAD
+def lookUp():
+    navigator.setheading(90)
+def lookDown():
+    navigator.setheading(270)
+def lookRight():
+    navigator.setheading(0)
+def lookLeft():
+    navigator.setheading(180)
+def go():
+    navigator.forward(20)
+
+navigator=turtle.Turtle()
+navigator.shape("circle")
+wn=turtle.Screen()
+
+wn.onkeypress(lookUp,"Up")
+wn.onkeypress(lookDown,"Down")
+wn.onkeypress(lookLeft,"Left")
+wn.onkeypress(lookRight,"Right")
+wn.onkeypress(go,"g")
+wn.listen()
+
+wn.mainloop()
+=======
 from PIL import Image
 import os
 from os import path
@@ -37,3 +62,4 @@ while True:
 # main()
 # check background image
 # print(turtle.bgpic())
+>>>>>>> 9c70599e0941e7a9a95305fc91b18c762dd7398c

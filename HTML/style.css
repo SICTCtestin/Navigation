@@ -7,7 +7,7 @@ body{
     background-repeat: repeat-x;
 }
 header{
-    align: center;
+    text-align: center;
     color: #fff;
     font-size: 120%;
     margin-top: 50px;;

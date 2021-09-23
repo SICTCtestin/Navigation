@@ -26,6 +26,13 @@ footer{
     margin: auto; /*will help center text on screen */
     width: 80%;
 }
+#logo{
+    height: 100px;
+    width: 1000px;
+    background-image: url("htmlImages/sictc-logo.png");
+    background-size: 100% 100%;
+    background-repeat: repeat-y;
+}
 .studio{
     font-style: italic;
 }
@@ -38,11 +45,49 @@ footer{
     padding: 1em;
     color:#fff;
 }
-#wrapper{
-    padding: 2em;
-    margin: auto; /*will help center text on screen */
-    width: 80%;
+/* https://www.w3schools.com/jsref/event_onclick.asp */
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: solid 2px black;
+    -moz-box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    -webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    cursor: pointer;
 }
-.studio{
-    font-style: italic;
+
+.dropbtn:hover, .dropbtn:focus {
+    background-color: #3e8e41;
 }
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+.dropdown-content a {
+        color: black;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #3e8e41;
+    color: white;
+    font-style: bold;
+    font-size:xx-large;
+}
+
+.show {display:block;}

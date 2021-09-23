@@ -7,11 +7,44 @@
     </head>
     <body>
         <div id="wrapper">
-            <header>
-                <h1>Southern Indiana Career and Technical Center</h1>
+            <header id="logo">
             </header>
+            <nav>
+                <div class="dropdown">
+                    <button id="myBtn" class="dropbtn"><b>Courses</b></button>
+                    <div id="myDropdown" class="dropdown-content">
+                        <a href="SICTCNav.html">Home</a></li>
+                        <a href="amt.html">Advanced Manufacturing Technology</a>
+                        <a href="asfsam.html">Animal Science, Food Science, and Agribusiness Management</a>
+                        <a href="aec.html">Architecture/Engineering Courses</a>
+                        <a href="acrt.html">Automotive Collision Repair Technology</a>
+                        <a href="ast.html">Automotive Service Technology</a>
+                        <a href="bct.html">Building Construction Technology</a>
+                        <a href="cisco.html">Computer Network Technology/CISCO</a>
+                        <a href="cs.html">Computer Science</a>
+                        <a href="ca.html">Culinary Arts</a>
+                        <a href="dst.html">Diesel Service Technology</a>
+                        <a href="electric.html">Electricity Technology</a>
+                        <a href="gcdm.html">Graphic Communications/Digital Media</a>
+                        <a href="hse.html">Health Sciences Education</a>
+                        <a href="hvac.html">HVAC-R and Energy Systems</a>
+                        <a href="pmmt.html">Precision Machine Metalworking Technology</a>
+                        <a href="pslefs.html">Public Safety/Law Enforcement/Fire Science</a>
+                        <a href="rtv.html">Radio/TV Communications</a>
+                        <a href="wt.html">Welding Technology</a>
+                </div>
+                <script>
+                    // Get the button, and when the user clicks on it, execute myFunction
+                    document.getElementById("myBtn").onclick = function() {myFunction()};
+        
+                    /* myFunction toggles between adding and removing the show class, which is used 		to hide and show the dropdown content */
+                    function myFunction() {
+                        document.getElementById("myDropdown").classList.toggle("show");
+                    }
+                </script>
+                </nav>
             <main>
-                <h2>Advanced Manufacturing Technology</h2>
+                <h2>Automotive Service Technology</h2>
                 <h3>COURSE DESCRIPTION:</h3>
                 <p>The Automotive Service program is a two year program designed to prepare students either to enter the automotive repair industry workforce in an entry level position or to prepare them for post-secondary training in the automotive industry. The program is ASE/NATEF certified in 7 areas, including: brakes, steering and suspension, engine repair, engine performance, heating and air conditioning, electrical/electronic systems and manual drivetrains and axles.
                     Training is divided between classroom and laboratory experiences that incorporate theory of operation, service and repair of the various automotive systems. Also students will learn and utilize service and repair software and become familiar with automotive suppliers and acquiring repair parts, as well as repair order preparation and billing.

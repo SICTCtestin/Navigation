@@ -48,6 +48,12 @@ footer{
     margin-bottom: 50px;
     border: 5px solid #0C3D56;
 }
+.classBTN{
+    background-color: black;
+    color: white;
+    font-size: 10px;
+    cursor: pointer;
+}
 .studio{
     font-style: italic;
 }
@@ -60,6 +66,7 @@ footer{
     padding: 1em;
     color:#fff;
 }
+
 /* https://www.w3schools.com/jsref/event_onclick.asp */
 .dropbtn {
     background-color: #4CAF50;

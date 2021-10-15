@@ -146,3 +146,28 @@ footer{
 
 .show {display:block;}
 a.colour:link {color:#34CF72;}
+.subDropNav{
+    position: relative;
+  display: inline-block;
+}
+.subDropNav-content{
+    display: none;
+    position: absolute;
+    background-color: #4CAF50;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.subDropNav-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.subDropNav-content a:hover{
+    background-color: #3e8e41;
+    color: white;
+    font-style: bold;
+    font-size:medium;
+}
+

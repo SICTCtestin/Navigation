@@ -44,6 +44,12 @@
             function myFunction() {
                 document.getElementById("myDropdown").classList.toggle("show");
             }
+            function changeImage()
+            {
+            var img = document.getElementById("map");
+            img.src="drawMaps/download.jpg";
+            return false;
+            }
 
         </script>
         </nav>
@@ -69,17 +75,16 @@
             Evansville, IN 47711
         </p>
         <p>(812)-435-8438</p>
-        <div class="container">
-        <img id="map">
-        <button class="btn">Button</button>
+        <div >
+            <img id="map">
         </div>
         <div>
-            <button class="classBTN">Automotive Collision</button>
+            <button class="classBTN" onclick="changeImage();">Automotive Collision</button>
             <button class="classBTN">Advanced Manufacturing</button>
             <button class="classBTN">Animal Science</button>
             <button class="classBTN">Automotive Service</button>
             <button class="classBTN">Building Construction</button>
-            <button class="classBTN">Computer NetworK</button>
+            <button class="classBTN">Computer Network</button>
             <button class="classBTN">Computer Science</button>
             <button class="classBTN">Culinary Arts</button>
             <button class="classBTN">Diesel Service</button>

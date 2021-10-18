@@ -37,7 +37,7 @@ footer{
 #logo:hover{
     transition: .5s ease;
     opacity: 50%;
-} 
+}
 /* Container needed to position the button. Adjust the width as needed */
 .container {
     position: relative;
@@ -72,7 +72,18 @@ footer{
 #map{
     height: 750px;
     width: 1000px;
-    background-image: url;
+    background-image: url("drawMaps/MASTER\ SICTC\ FLOOR\ PLAN.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-bottom: 50px;
+    border: 5px solid #0C3D56;
+}
+#directions{
+    height: 750px;
+    width: 1000px;
+    background-image: url("drawMaps/download.jpg");
     background-size: 100% 100%;
     background-repeat: no-repeat;
     margin-top: 50px;

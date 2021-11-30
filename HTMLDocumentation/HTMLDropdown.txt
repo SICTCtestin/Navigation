@@ -1,0 +1,138 @@
+The drop-down we have is a clickable button that, once clicked, will show our drop-down. The style and HTML code for this button it this:
+	HTML: <button class="dropbtn"><b>Courses</b></button>
+	CSS Style: .dropbtn {
+    			background-color: #4CAF50;
+    			color: white;
+    			padding: 16px;
+    			font-size: 16px;
+    			border: solid 2px black;
+    			-moz-box-shadow:5px 5px 5px rgba(0,0,0,0.5);  //the moz and webkit box shadow stuff just set the buttons shadow and color
+    			-webkit-box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+   			box-shadow:5px 5px 5px rgba(0,0,0,0.5);
+    			cursor: pointer;
+			}
+		.dropbtn:hover, .dropbtn:focus {
+    			background-color: #3e8e41;
+			}
+
+Here is the code for the style and html code for the drop-down class that creates the drop-down and the content within it:
+	HTML: <div class="dropdown">
+            <button class="dropbtn"><b>Courses</b></button>
+            <div id="myDropdown" class="dropdown-content">
+                <a href="SICTCNav.html">Home</a></li>
+                <a href="amt.html">Advanced Manufacturing Technology</a>
+                <a href="asfsam.html">Animal Science, Food Science, and Agribusiness Management</a>
+                
+                <ul class="dropdown">
+                    <li><a href="aec.html">Architecture/Engineering Courses</a>
+                        <ul>
+                            <li><a href="asdee.html">Aerial Systems - Drones (engineering emphasis)</a></li>
+                            <li><a href="add.html">Architectural Design and Drafting</a></li>
+                            <li><a href="mdd.html">Mechanical Drafting and Design</a></li>
+                            <li><a href="pltwcea.html">Project Lead the Way: Civil Engineering & Architecture</a></li>
+                            <li><a href="pltwcim.html">Project Lead the Way: Computer Integrated Manufacturing</a></li>
+                            <li><a href="pltwde.html">Project Lead the Way: Digital Electronics</a></li>
+                            <li><a href="pltwedd.html">Project Lead the Way: Engineering Design and Development</a></li>
+                        </ul>
+                    </li>
+                </ul>
+                <a href="acrt.html">Automotive Collision Repair Technology</a>
+                <a href="ast.html">Automotive Service Technology</a>
+                <a href="bct.html">Building Construction Technology</a>
+                <a href="cisco.html">Computer Network Technology/CISCO</a>
+                <a href="cs.html">Computer Science</a>
+                <a href="ca.html">Culinary Arts</a>
+                <a href="dst.html">Diesel Service Technology</a>
+                <a href="electric.html">Electricity Technology</a>
+                <a href="gcdm.html">Graphic Communications/Digital Media</a>
+                <a href="hse.html">Health Sciences Education</a>
+                <a href="hvac.html">HVAC-R and Energy Systems</a>
+                <a href="pmmt.html">Precision Machine Metalworking Technology</a>
+                <a href="pslefs.html">Public Safety/Law Enforcement/Fire Science</a>
+                <a href="rtv.html">Radio/TV Communications</a>
+                <a href="wt.html">Welding Technology</a>
+        </div>
+	/* everything that is within the div with the myDropdown id and the dropdown-content class is the clickable titles that lead to their respective HTML websites and the unordered list/<ul> is the sub drop-down.*/
+	CSS Style: .dropdown {
+    			position: relative;
+    			display: inline-block;
+			}
+
+		.dropdown-content {
+    			display: none;
+    			position: absolute;
+    			background-color: #4CAF50;
+    			min-width: 160px;
+    			overflow: auto;
+    			box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			}
+
+		.dropdown-content a {
+        		color: black;
+        		padding: 12px 16px;
+        		text-decoration: none;
+        		display: block;
+			}
+
+		.dropdown-content a:hover {	//sets what happenes when the user hovers over the drop-down content
+    			background-color: #3e8e41;
+    			color: black;
+    			font-style: bold;
+    			font-size:medium;
+			}
+
+		.show {display:block;}
+		a.colour:link {color:#34CF72;} //Just sets the link color
+Now the base drop-down id and class in CSS won't work for the sub drop-down but this CSS code will:
+	.dropdown li {
+    		position: relative;
+    		list-style: none;
+	}
+
+	.dropdown li a {
+    		color: black;
+    		text-align: center;
+    		text-decoration: none;
+    		display: block;
+    		font-size: medium;
+	}
+
+	.dropdown li ul {
+    		list-style: none;
+    		display: none;
+    		line-height: normal;
+   		background-color: #4CAF50;
+	}
+
+	.dropdown li ul li a {
+    		text-align: left;
+    		color: black;
+    		font-size: 14px;
+    		display: block;
+    		white-space: nowrap;
+    		font-size: medium;
+	}
+
+	.dropdown li ul li a:hover {
+    		background-color: #3e8e41;
+    		color: black;
+    		font-size: medium;
+	}
+
+	.dropdown li ul li ul {
+    		left: 100%;
+   		top: 0;
+	}
+
+	ul li:hover>a {
+    		background-color: #3e8e41;
+    		color: black !important;
+    		font-size: medium;
+	}
+
+	ul li:hover>ul {
+    		display: block;
+    		font-size: medium;
+	}
+/* This creates a class and within that class it changes the unordered list and list item to become something like a sub drop-down.*/
+We never did get this working properly and we scrapped it when we moved over to a more promethean board based version.

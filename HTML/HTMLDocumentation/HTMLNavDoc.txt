@@ -1,0 +1,3 @@
+Changing the images on the map:
+  Whenever you click on any of the buttons it will call a JavaScript function that changes the Image Views source. 
+  The JavaScript files get the id of the imageView and changes the source from one image to another. 

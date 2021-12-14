@@ -19,11 +19,14 @@ private void graphicMap(){
         image.setImageResource(R.drawable.graphicmap);
         
     }
-        ```
     
-    This is called whenever the user clicks on a button, we call it in the following:
+```
+![image](https://user-images.githubusercontent.com/71509618/146058013-33a4cef2-a66b-4231-8fa0-a501826440b2.png)
+
     
-    ```java
+This is called whenever the user clicks on a button, we call it in the following:
+    
+```java
     
         weldingBTN=findViewById(R.id.weldingBTN);
         weldingBTN.setOnClickListener(new View.OnClickListener() {
@@ -31,7 +34,9 @@ private void graphicMap(){
             @Override
             public void onClick(View view) {
                 weldingMap();
-                } ```
-                
+                } 
+```
+![image](https://user-images.githubusercontent.com/71509618/146058368-7444aa00-225f-4a10-b522-64618795a593.png)
+
                 
 This will allow you to call a button through on click listener and switch the images on the navapp

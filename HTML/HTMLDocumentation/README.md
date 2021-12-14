@@ -1,7 +1,5 @@
-# Navigation
-Group project consisting of Kai, Mason, Tyler, and Scott
-
-This will allow you to understand how to change images through buttons
+# Navigation Website
+This will allow you to understand how to change imageView's image through button onclicks
 
 ## JavaScript Code
 
@@ -18,6 +16,10 @@ Then you need to make sure the buttons are calling the function by putting them 
 
 ![ButtonCalling](https://user-images.githubusercontent.com/71509753/146066611-40ce99a3-a90e-421d-bfd5-5d470e7ff637.PNG)
 
-This is waht the website would look like
+## The Website Itself
+
+This will be what the image view will look like beforehand
 ![StartingMap](https://user-images.githubusercontent.com/71509753/146067371-c17e0bb6-abe4-4941-8303-3d1121c7f660.PNG)
+
+This is what it would look like after the button was clicked
 ![AfterClick](https://user-images.githubusercontent.com/71509753/146067377-cb4fa9c0-f418-493f-8688-525c70fcc0aa.PNG)

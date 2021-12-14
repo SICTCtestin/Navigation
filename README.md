@@ -11,10 +11,12 @@ private void graphicMap(){
     }
     <br>This is called whenever the user clicks on a button, we call it in the following:<br />
     ```java
-        weldingBTN=findViewById(R.id.weldingBTN); <br />
+        weldingBTN=findViewById(R.id.weldingBTN);
         weldingBTN.setOnClickListener(new View.OnClickListener() {
             @Override
-            public void onClick(View view) {<br />
-                weldingMap();<br />
-                } ```<br />
+            public void onClick(View view) {
+                weldingMap();
+                } ```
+                
+                
 This will allow you to call a button through on click listener and switch the images on the navapp

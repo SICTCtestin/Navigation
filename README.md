@@ -16,6 +16,5 @@ private void graphicMap(){
             @Override
             public void onClick(View view) {
                 weldingMap();
-                }
-  ```
+                } ```
 This will allow you to call a button through on click listener and switch the images on the navapp

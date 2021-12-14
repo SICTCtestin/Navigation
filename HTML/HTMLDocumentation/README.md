@@ -1,42 +1,23 @@
 # Navigation
 Group project consisting of Kai, Mason, Tyler, and Scott
 
---NAVAPP--
-
 This will allow you to understand how to change images through buttons
 
-First step you will need is to be able to add images to the drawable folder. 
-DO NOT add the images to the drawable v-24 folder or the results may not be consistent.
-First step take the file and drag it into the drawable folder, or copy and paste it into the folder. 
-Then add the path to the drawable file. Make sure the image is only in lowercase letters without spaces.
+## JavaScript Code
 
-Now that the image file has been added, you will need to create a function to call the button, we used the following: 
+Put this in a section called script to make the button change the image on the map
 
-```java
+Make sure to put the id of the imageView in the getElementById so it can be changed
 
-private void graphicMap(){
+Put the source of the image you want to change to in the img.src
 
-        image.setImageResource(R.drawable.graphicmap);
-        
-    }
+![JavaScript](https://user-images.githubusercontent.com/71509753/146066254-31488854-d738-41fa-bbe1-9d31ef0fb029.PNG)
     
-```
-![image](https://user-images.githubusercontent.com/71509618/146058013-33a4cef2-a66b-4231-8fa0-a501826440b2.png)
+ ## HTML Code
+Then you need to make sure the buttons are calling the function by putting them in an onclick event
 
-    
-This is called whenever the user clicks on a button, we call it in the following:
-    
-```java
-    
-        weldingBTN=findViewById(R.id.weldingBTN);
-        weldingBTN.setOnClickListener(new View.OnClickListener() {
-        
-            @Override
-            public void onClick(View view) {
-                weldingMap();
-                } 
-```
-![image](https://user-images.githubusercontent.com/71509618/146058368-7444aa00-225f-4a10-b522-64618795a593.png)
+![ButtonCalling](https://user-images.githubusercontent.com/71509753/146066611-40ce99a3-a90e-421d-bfd5-5d470e7ff637.PNG)
 
-                
-This will allow you to call a button through on click listener and switch the images on the navapp
+This is waht the website would look like
+![StartingMap](https://user-images.githubusercontent.com/71509753/146067371-c17e0bb6-abe4-4941-8303-3d1121c7f660.PNG)
+![AfterClick](https://user-images.githubusercontent.com/71509753/146067377-cb4fa9c0-f418-493f-8688-525c70fcc0aa.PNG)

@@ -9,11 +9,13 @@ Now that the image file has been added, you will need to create a function to ca
 private void graphicMap(){
         image.setImageResource(R.drawable.graphicmap);
     }
-This is called whenever the user clicks on a button, we call it in the following:
+    This is called whenever the user clicks on a button, we call it in the following:
+    ```java
         weldingBTN=findViewById(R.id.weldingBTN);
         weldingBTN.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 weldingMap();
                 }
+  ```
 This will allow you to call a button through on click listener and switch the images on the navapp

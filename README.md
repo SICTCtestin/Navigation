@@ -19,8 +19,7 @@ private void graphicMap(){
         image.setImageResource(R.drawable.graphicmap);
         
     }
-    
-    ```
+        ```
     
     This is called whenever the user clicks on a button, we call it in the following:
     

@@ -10,23 +10,18 @@ private void graphicMap(){
         image.setImageResource(R.drawable.graphicmap);
     }
     <br>This is called whenever the user clicks on a button, we call it in the following:<br />
-    ```java
     
+    ```java
     
         weldingBTN=findViewById(R.id.weldingBTN);
         
-        
         weldingBTN.setOnClickListener(new View.OnClickListener() {
-        
         
             @Override
             
-            
             public void onClick(View view) {
             
-            
                 weldingMap();
-                
                 
                 } ```
                 

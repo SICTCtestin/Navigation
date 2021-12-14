@@ -15,13 +15,10 @@ private void graphicMap(){
     ```java
     
         weldingBTN=findViewById(R.id.weldingBTN);
-        
         weldingBTN.setOnClickListener(new View.OnClickListener() {
         
             @Override
-            
             public void onClick(View view) {
-            
                 weldingMap();
                 } ```
                 
